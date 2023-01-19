@@ -13,6 +13,7 @@ setup(
     python_requires='>=3.10',
     install_requires=[
         "watchdog==2.1.9",
+        "requests==2.28.2",
     ],
     setup_requires=['pytest-runner', 'flake8'],
     tests_require=[],
